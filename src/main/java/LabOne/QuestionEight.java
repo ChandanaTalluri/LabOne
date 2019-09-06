@@ -15,11 +15,8 @@ public class QuestionEight {
     public static void main(String[] args) {
         //40 cookies ,10 servings which mean each serving has 4 cookies
         //4 cookies => 300 calories
-        // x number of cookies = (x*300)/4
-        
-         
+        // x number of cookies = (x*300)/4   
         String cookies = JOptionPane.showInputDialog("Please enter the amount :");
-
         try {
             float  noOfcookies =  Float.parseFloat(cookies);
             float noOfCalaries = (noOfcookies * 300)/4;
