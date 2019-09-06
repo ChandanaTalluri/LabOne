@@ -16,7 +16,7 @@ public class QuestionEight {
         //40 cookies ,10 servings which mean each serving has 4 cookies
         //4 cookies => 300 calories
         // x number of cookies = (x*300)/4
-        //each bag has 40 cookies
+        
          
         String cookies = JOptionPane.showInputDialog("Please enter the amount :");
 
