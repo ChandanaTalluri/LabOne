@@ -15,11 +15,14 @@ public class QuestionEight {
     public static void main(String[] args) {
         //40 cookies ,10 servings which mean each serving has 4 cookies
         //4 cookies => 300 calories
-        // x number of cookies = (x*300)/4
-        String cookies = JOptionPane.showInputDialog("Please enter the cookies consumed :");
+        // x number of cookies
+        //each bag has 40 cookies
+         
+        String cookies = JOptionPane.showInputDialog("Please enter the amount :");
+
         try {
             float  noOfcookies =  Float.parseFloat(cookies);
-            float noOfCalaries = (noOfcookies * 300)/4;
+            float noOfCalaries = (noOfcookies * 30)/40;
             String strRounded = String.format("%.2f",noOfCalaries);
             JOptionPane.showMessageDialog(null, "Number of calories consumed :"+strRounded);
             System.out.println("Number of calories consumed :"+strRounded);
